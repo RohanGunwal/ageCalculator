@@ -1,0 +1,56 @@
+body {
+  height: 100vh;
+}
+
+.container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.calculator {
+  border: 1px solid #ddd;
+  border-radius: 7px;
+  width: 800px;
+  height: 400px;
+}
+
+.calculator .header {
+  border-bottom: 1px solid #ddd;
+  text-align: center;
+  font-size: 20px;
+  padding: 10px 0px;
+  letter-spacing: 0.78px;
+  box-shadow: 0px 7px 10px -10px rgba(0, 0, 0, 0.2);
+}
+
+.calculator .body {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  padding: 0px 80px;
+  height: 100%;
+  text-align: center;
+}
+
+.calculator .body .inputs {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.calculator .body .inputs input {
+  text-align: center;
+  width: 200px;
+}
+
+.calculator .body .btn {
+  padding: 10px 30px;
+}
+
+.calculator .body #answer {
+  height: 100px;
+  text-align: center;
+  font-size: 20px;
+}
